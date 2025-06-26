@@ -1,142 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Portfolio</title>
-    <!-- Custom css file link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Harish Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/harish_pic_2.jpg" type="image/jpg">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css ">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./style.css">
-    <!-- <link rel="stylesheet" href="./script.js"> -->
 </head>
+
 <body>
-   <div>
-   <!-- header section starts -->
-   <header>
-    <div class="user">
-        <img src="HARISH.jpg" alt="">
+    <!-- Header Section -->
+    <header>
+        <div class="user">
+            <img src="./harish_pic_2.jpg" alt="Harish Profile Picture">
+            <h3 class="name">Harish G</h3>
+            <p class="post">Developer</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#project" class="nav-link"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <h3 class="name"> Harish G</h3>
-        <p class="post"> Developer</p>
-    </div>
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home" >home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#contact">contact</a></li>
-          <!--  <li><a href="#map">map</a></li>-->
-        </ul>
-    </nav>
-   </header>
-   <!-- header section ends -->
-   <div id="menu" class="fas fa-bars"></div>
-   <!-- Home section Starts -->
-   <section class="home" id="home">
-    <h3>Hi There!</h3>
-    <h1>I'M <span>Harish</span><h1>
-    <P>I Have Doing My Bachelor Of Engineering In The Department Of Computer Science And Engineering. I Am Interested In Web Development.</P>
-    <a href="#about"><button class="btn">About me <i class="fas fa-user"></i></button></a>
-   </section>
-   <!-- Home section Ends -->
+    <!-- Menu Toggle Button -->
+    <div id="menu" class="fas fa-bars"></div>
 
-<!-- About section Starts -->
-<section class="about" id="about">
-    <h1 class="heading"><span>about</span> me </h1>
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Hi There!</h3>
+            <h1>I'M <span class="typing-text">Harish</span></h1>
+            <p class="intro-text">I'm pursuing my Bachelor of Engineering in Computer Science. Passionate about web development and creating interactive user experiences.</p>
+            <a href="#about" class="btn">About me <i class="fas fa-user"></i></a>
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/harish12here/" class="fab fa-github" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/harish-g1205" class="fab fa-linkedin" target="_blank"></a>
+            <a href="#" class="fab fa-twitter" target="_blank"></a>
+            <a href="#" class="fab fa-instagram" target="_blank"></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> me</h1>
         <div class="row">
             <div class="info">
-                <h3> <span> name : </span> Harish</h3>
-                <h3> <span> age : </span> 20</h3>
-                <h3> <span> Post : </span>Web Developer </h3>
-                <h3> <span> Language : </span> Tamil,English</h3>
-               <a href="#"><button class="btn"> Resume <i class="fas fa-download"></i></button></a>
+                <h3><span>name :</span> Harish G</h3>
+                <h3><span>age :</span> 20</h3>
+                <h3><span>qualification :</span> BE (CSE)</h3>
+                <h3><span>post :</span> Web Developer</h3>
+                <h3><span>language :</span> Tamil, English</h3>
+                <a href="assets/HARISH G CSE KSRCE.pdf" class="btn" download>Download CV <i class="fas fa-download"></i></a>
             </div>
             <div class="counter">
                 <div class="box">
-                    <span>C program</span>
-                    <h3> Skill : 90%</h3>
-                    
+                    <span class="skill-name">C Programming</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                    <h3>90%</h3>
                 </div>
                 <div class="box">
-                    <span>Java </span>
-                    <h3> Skill : 90%</h3>
-                   
+                    <span class="skill-name">Java</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                    <h3>90%</h3>
                 </div>
                 <div class="box">
-                    <span>MySQL</span>
-                    <h3> Skill : 80%</h3>
+                    <span class="skill-name">MySQL</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                    <h3>80%</h3>
                 </div>
                 <div class="box">
-                    <span>Python</span>
-                    <h3> Skill : 50%</h3>
+                    <span class="skill-name">HTML/CSS</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                    <h3>90%</h3>
+                </div>
+                <div class="box">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                    <h3>70%</h3>
                 </div>
             </div>
         </div>
-</section>
-<!-- About section Ends -->
-<!-- Education Section Starts -->
-<section class="education" id="education">
-    <h1 class="heading"> my <span>education</span></h1>
-    <div class="box-container">
-        <div class="box">
-            <i class="fas fa-user-graduate"></i>
-            <span>2022-2026</span>
-            <h3>Computer Science and Engineering</h3>
-            <p> K S R  College of Engineering</p>
-        </div>
-        <div class="box">
-            <i class="fas fa-book-open-reader"></i>
-            <span>2022</span>
-            <h3>Higher Secondary</h3>
-            <p> Nehru Higher Secondary School,Puthanampatti.</p>
-        </div>
-        <div class="box">
-            <i class="fas fa-school"></i>
-            <span>2020</span>
-            <h3>SSLC</h3>
-            <p>Nehru Higher Secondary School,Puthanampatti.</p>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Education Section Ends -->
-
-<!-- Contact Section Starts -->
-
-<section class="contact" id="contact">
-    <h1 class="heading"><span>contact</span> me </h1>
-    <div class="row">
-        <div class="content">
-            <h3 class="title">Contact info</h3>
-            <div class="info">
-                <h3><i class="fas fa-envelope"></i> harishganesan1205@gmail.com</h3>
-                <h3><i class="fas fa-phone"></i> +91 9342233906</h3>
-                <h3><i class="fas fa-map-marker-alt"></i> Trichy, Tamilnadu, India - 621007</h3>
-
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h1 class="heading">my <span>education</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022-2026</span>
+                <h3>Computer Science and Engineering</h3>
+                <p>K S R College of Engineering</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-book-open"></i>
+                <span>2022</span>
+                <h3>Higher Secondary</h3>
+                <p>Nehru Higher Secondary School, Puthanampatti</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-school"></i>
+                <span>2020</span>
+                <h3>SSLC</h3>
+                <p>Nehru Higher Secondary School, Puthanampatti</p>
             </div>
         </div>
-        <form action="">
-            <input type="text" placeholder="Name" class="box">
-            <input type="email" placeholder="Email" class="box">
-            <input type="number" placeholder="Mobile" class="box">
-            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
-            <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
-        </form>
-    </div>
-</section>
-<!-- Contact Section Ends -->
-<!-- scroll top <button></button> -->
-<a href="#home" class="top far fa-arrow-alt-circle-up"> <!--⬆️-->
-    <!-- <img src="./booster-1.webp"> -->
-</a>
+    </section>
 
-   <!--</div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script></div>
-    <script src="./script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>-->
+    <!-- Projects Section -->
+    <section class="project" id="project">
+        <h1 class="heading">my <span>projects</span></h1>
+        <div class="project-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="portfolio project image.jpg" alt="Portfolio Website">
+                    <div class="project-overlay">
+                        <a href="#home" target="_blank" class="preview-btn"><i class="fas fa-eye"></i> Preview</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Portfolio Website</h3>
+                    <p>Designed and developed a personal portfolio website to showcase projects, skills, and achievements using HTML, CSS, and JavaScript.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./location image.jpg" alt="Campus Navigation System">
+                    <div class="project-overlay">
+                        <a href="#" class="preview-btn"><i class="fas fa-eye"></i> Preview</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Campus Navigation System</h3>
+                    <p>Developed a mobile application to assist students and visitors in navigating the college campus with interactive maps.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Android</span>
+                        <span>Google Maps API</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="calculator image.jpg" alt="Calculator">
+                    <div class="project-overlay">
+                        <a href="https://harish12here.github.io/calculator/" class="preview-btn"><i class="fas fa-eye"></i> Preview</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Web Calculator</h3>
+                    <p>Developed a responsive web-based calculator with basic arithmetic operations using HTML, CSS, and JavaScript.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> me</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">contact info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i> harishganesan1205@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i> +91 9342233906</h3>
+                    <h3><i class="fas fa-map-marker-alt"></i> Trichy, Tamilnadu, India - 621007</h3>
+                </div>
+            </div>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Name" class="box" required>
+                <input type="email" name="email" placeholder="Email" class="box" required>
+                <input type="text" name="subject" placeholder="Subject" class="box" required>
+                <textarea name="message" class="box message" placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Scroll Top Button -->
+    <a href="#home" class="top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Typed.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <!-- EmailJS -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
