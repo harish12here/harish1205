@@ -200,28 +200,6 @@ const developer = {
 
 ---
 
-## 📊 GitHub Activity & Analytics
-
-<div align="center">
-
-<!-- Main Stats & Streak -->
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D2FF&text_color=C9D1D9&icon_color=00D2FF" height="165" alt="GitHub Stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0D1117&ring=00D2FF&fire=00D2FF&currStreakLabel=00D2FF&sideLabels=C9D1D9&dates=8B949E" height="165" alt="GitHub Streak" />
-
-<br/><br/>
-
-<!-- Top Languages & Activity Graph -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D2FF&text_color=C9D1D9" height="155" alt="Top Languages" />
-
-<br/><br/>
-
-<!-- Interactive Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D2FF&line=00D2FF&point=FFFFFF&area=true&hide_title=true" width="95%" alt="Activity Graph" />
-
-</div>
-
----
-
 ## 🎓 Education
 
 - **B.E. in Computer Science and Engineering**  
